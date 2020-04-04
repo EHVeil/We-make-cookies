@@ -95,7 +95,7 @@ buyGrandma.addEventListener("click", function() {
     cookieCount -= grandmaPriceAmount;
     refreshCookieCount();
     //upgrade power level
-    grandmaLevelNumber = +1;
+    grandmaLevelNumber += 1;
     //update price
     grandmaPriceAmount = Math.floor(grandmaPriceAmount * 1.33);
     //update grandma power
